@@ -98,8 +98,9 @@ const HeroSection = () => {
             className="flex justify-center"
           >
             <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full glass-card glow-border flex items-center justify-center animate-float">
-                <span className="text-6xl md:text-7xl font-heading font-bold gradient-text">TJ</span>
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full glass-card glow-border flex items-center justify-center animate-float object-fill overflow-hidden">
+                {/* <span className="text-6xl md:text-7xl font-heading font-bold gradient-text">TJ</span> */}
+                <img src="/Tanishka.JPG" alt="" className="object-fill" />
               </div>
               <div className="absolute -inset-4 rounded-full bg-gradient-to-br from-primary/20 via-transparent to-accent/20 blur-2xl -z-10" />
             </div>
